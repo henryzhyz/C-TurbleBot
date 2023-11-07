@@ -1,0 +1,13 @@
+<!-- <launch>
+  <node name="sample_package" pkg="path_planning" type="sample_package" output="screen" clear_params="true" ns="test">
+  </node>
+</launch> -->
+
+<launch>
+<arg name="cmd_vel" default="/cmd_vel"/>
+<arg name="name" default="turtlebot3"/>
+
+<param name="cmd_vel_topic_name" value="$(arg cmd_vel)"/>
+
+<node name="$(arg name)_node" pkg="path_planning" type="path_planning_node" required="true" output="screen"/>
+</launch> 
