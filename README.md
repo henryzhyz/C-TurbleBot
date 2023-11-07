@@ -1,7 +1,4 @@
-# Cplusplus-TurbleBot
-# MTRX3760-Project-1
-Groupg Name: RoboMaster
-Team Member: 480069009, 490149261,490189050, 490440906
+# Cplusplus-pizzadelivery 
 
 #####################################
 
